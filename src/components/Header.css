@@ -1,0 +1,120 @@
+:root {
+    --color-text: #ffffff;
+    --color-header-footer: #4e4e4e;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .roboto-bold {
+    font-weight: 700;
+  }
+  
+  .nav {
+    height: 50px;
+    color: var(--color-text);
+    background-color: var(--color-header-footer);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header {
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-image: url('../components/assets/images/Tłosekcji_img2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .header-shadow {
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-image: url('../components/assets/images/main_image.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-container {
+    color: var(--color-text);
+  }
+  
+  .content-info-text {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .header-text {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .text-header {
+    font-size: 36px;
+  }
+  
+  .header-text-content {
+    margin: 42px 0;
+    font-size: 18px;
+  }
+  
+  .click-oferta {
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    padding: 14px 57px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    text-decoration: none;
+    transition: color 1s, background-color 1s;
+  }
+  
+  .marg {
+    margin: 0 0 0 46px;
+  }
+  
+  .contacts {
+    cursor: not-allowed;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media (hover: hover) {
+    .header-right a:not(.contacts):hover {
+      color: rgb(36, 36, 236);
+    }
+  
+    .click-oferta:hover {
+      background-color: #ffffff;
+      color: black;
+    }
+  }

@@ -1,0 +1,30 @@
+.service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .service:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .service:nth-of-type(even) .service-info {
+    margin-right: 60px;
+    text-align: right;
+  }
+  
+  .photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  
+  .service-info {
+    margin-left: 60px;
+    font-size: 18px;
+  }
+  
+  .text-spec {
+    margin-bottom: 10px;
+  }

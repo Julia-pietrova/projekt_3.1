@@ -1,0 +1,15 @@
+.services-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  .text-specialist {
+    margin-bottom: 71px;
+    font-size: 36px;
+  }

@@ -1,0 +1,22 @@
+.services {
+    background-color: #405d78;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .text-services {
+    color: var(--color-text);
+    font-size: 36px;
+    margin: 50px 0 70px 0;
+  }
+  
+  .items {
+    display: grid;
+    grid-template-rows: 194px 194px;
+    grid-template-columns: 198px 198px 198px;
+    gap: 63px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 64px 0;
+  }
