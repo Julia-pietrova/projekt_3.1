@@ -6,7 +6,7 @@ const Header = () => (
     <nav className="nav">
       <div className="container">
         <a className="header-text roboto-bold">moja firma</a>
-        {/* <a className="mobil-header roboto-bold">nazwa firmy</a> */}
+        <a className="mobil-header roboto-bold">nazwa firmy</a>
         <div className="header-right">
           <a href="#specialisty" className="header-text marg">o nas</a>
           <a href="#services" className="header-text marg">oferta</a>
