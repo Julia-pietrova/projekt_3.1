@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/twoje-repo/static/css/main.1e7c77fb.css",
+    "main.js": "/twoje-repo/static/js/main.57cd80d9.js",
+    "static/js/453.88e6ec61.chunk.js": "/twoje-repo/static/js/453.88e6ec61.chunk.js",
+    "static/media/Tłosekcji_img2.jpg": "/twoje-repo/static/media/Tłosekcji_img2.e56cbb24d07953f315de.jpg",
+    "index.html": "/twoje-repo/index.html",
+    "main.1e7c77fb.css.map": "/twoje-repo/static/css/main.1e7c77fb.css.map",
+    "main.57cd80d9.js.map": "/twoje-repo/static/js/main.57cd80d9.js.map",
+    "453.88e6ec61.chunk.js.map": "/twoje-repo/static/js/453.88e6ec61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e7c77fb.css",
+    "static/js/main.57cd80d9.js"
+  ]
+}
